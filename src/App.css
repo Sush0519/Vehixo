@@ -1,0 +1,20 @@
+/* Feature Section  */
+.bg {
+  background: linear-gradient(45deg, #d3d3f5, #ffffff, #d3d3f5);
+}
+
+/* Workspace Section  */
+
+.card {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: perspective(1000px) rotate3d(1, 1, 0, 15deg);
+}
+
+/* Testimonials */
+.Test-bg {
+  background: linear-gradient(45deg, #f0f0f4, #d3d3f5, #b8b8f0);
+}
