@@ -55,7 +55,7 @@ export default function TestimonialSection() {
 
   return (
     <div className="flex-col w-full">
-      <p className="text-[28px] md:text-4xl font-bold pl-8 md:pl-13 py-8">
+      <p className="text-[28px] md:text-4xl abril font-bold pl-8 md:pl-13 py-8">
         Let's See What Our Happy Members Have to Say!
       </p>
 

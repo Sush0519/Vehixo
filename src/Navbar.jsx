@@ -9,14 +9,14 @@ export default function Navbar() {
   return (
     <nav className="w-full z-20 fixed px-4 flex items-center justify-between h-18 bg-white shadow-md">
       {/* Logo */}
-      <h2 className="text-[#de9a1c] text-4xl font-bold">Vehixo</h2>
+      <h2 className="text-[#15155f] alfa text-4xl font-bold">Vehixo</h2>
 
       {/* Desktop Menu */}
-      <ul className="hidden lg:flex py-2 text-xl font-semibold text-[#de9a1c] space-x-3">
+      <ul className="hidden lg:flex py-2 text-xl font-semibold text-[#15155f] space-x-3">
         {["Home", "About", "Service", "Contact"].map((item) => (
           <li
             key={item}
-            className="hover:bg-[#15155f] transition-all rounded-full hover:text-white px-4 py-1 hover:scale-105"
+            className="hover:bg-[#f57505] transition-all rounded-full hover:text-white px-4 py-1 hover:scale-105"
           >
             <a href="#">{item}</a>
           </li>
@@ -53,11 +53,11 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <ul className="absolute top-16 right-4 bg-blue-300/10 backdrop-blur-md shadow-lg rounded-lg p-3 w-40 flex flex-col space-y-2 text-[#15155f] font-semibold border border-white/30">
+        <ul className="absolute top-16 right-4 bg-white/70 backdrop-blur-sm shadow-lg rounded-lg p-3 w-40 flex flex-col space-y-2 text-[#15155f] font-semibold border border-white/30">
           {["Home", "About", "Service", "Contact"].map((item) => (
             <li
               key={item}
-              className="hover:bg-[#de9a1c]/80 transition-all hover:text-white  rounded-md p-2 text-center border-b border-white/20 last:border-b-0"
+              className="hover:bg-[#f57505]/80 transition-all hover:text-white  rounded-md p-2 text-center border-b border-white/20 last:border-b-0"
             >
               <a href="#" className=" transition-all">
                 {item}

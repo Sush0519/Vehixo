@@ -46,7 +46,7 @@ export default function WorkspaceSection() {
       className="w-full h-[520px] lg:h-[700px] bg-cover bg-center"
       style={{ backgroundImage: `url(${Bg})` }}
     >
-      <p className="text-[28px] text-wrap md:text-4xl font-bold pl-6 md:pl-10 py-6 md:py-8 text-white">
+      <p className="text-[28px] text-wrap md:text-4xl font-bold pl-6 md:pl-10 py-6  abril md:py-8 text-white">
         Workspaces Built for Your Needs
       </p>
 
@@ -57,16 +57,16 @@ export default function WorkspaceSection() {
             key={workspace.id}
             className="flex-col space-y-2  flex text-center rounded-2xl w-60 h-84 bg-white p-4 snap-center shrink-0"
           >
-            <p className="my-2 font-bold text-2xl">{workspace.title}</p>
+            <p className="my-2 font-bold  text-2xl">{workspace.title}</p>
             <div className="flex w-full space-x-2 justify-center items-center">
               <IoLocationOutline className="text-xl text-red-500" />
-              <p className="text-lg">{workspace.location}</p>
+              <p className="text-lg ">{workspace.location}</p>
             </div>
             <p className="text-gray-400 text-[13px]">{workspace.description}</p>
-            <p className="text-lg mt-auto font-semibold text-[#15155f]">
+            <p className="text-lg mt-auto  font-semibold text-[#15155f]">
               {workspace.price}
             </p>
-            <button className="p-2 mt-auto hover:bg-[#ca8d1a] mx-auto mb-3 w-36 text-base rounded-full text-white bg-[#de9a1c]">
+            <button className="p-2 mt-auto hover:bg-[#ca8d1a] mx-auto mb-3 w-36 text-base rounded-full text-white bg-[#f57505]">
               Book Now
             </button>
           </div>
@@ -97,7 +97,7 @@ export default function WorkspaceSection() {
             <p className="text-xl mt-auto font-semibold text-[#15155f]">
               {workspace.price}
             </p>
-            <button className="p-2 mt-auto hover:bg-[#ca8d1a] mx-auto mb-4 w-44 text-lg rounded-full text-white bg-[#de9a1c]">
+            <button className="p-2 mt-auto hover:bg-[#ca8d1a] mx-auto mb-4 w-44 text-lg rounded-full text-white bg-[#f57505]">
               Book Now
             </button>
           </div>

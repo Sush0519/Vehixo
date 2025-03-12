@@ -12,12 +12,12 @@ export default function HeroSection() {
         backgroundPosition: "center",
       }}
     >
-      <p className="text-white font-bold text-center text-lg md:text-2xl ">
+      <p className="text-white font-bold asap-bold text-center text-lg md:text-2xl ">
         Your workspace, your rules—choose a private desk or go flexible.
       </p>
-      <p className="text-white font-bold my-4 text-center text-4xl md:text-6xl ">
-        <span className="text-[#15155f]">Coworking</span> that fits your
-        lifestyle<span className="text-[#15155f]">.</span>
+      <p className="text-white abril font-bold my-4 text-center text-4xl md:text-6xl ">
+        <span className="text-[#f57505]">Coworking</span> that fits your
+        lifestyle<span className="text-[#f57505]">.</span>
       </p>
       <div className="w-[380px] md:w-[750px] lg:w-[900px] shadow-lg flex items-center justify-center mt-4 rounded-lg h-24 md:h-28 bg-white">
         <input
